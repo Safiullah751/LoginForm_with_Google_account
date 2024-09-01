@@ -1,0 +1,155 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container1 {
+    display: flex;
+    width: 1000px;
+    box-shadow: 0 0px 8px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.welcome-panel {
+    flex: 1;
+    background: linear-gradient(135deg, #6d5b97, #6a3093);
+    background-image: url('/assets/com.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+    color:rgb(19, 19, 81);
+    padding: 40px;
+    text-align: center;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+
+.welcome-panel .logo {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.welcome-panel h1 {
+    margin-bottom: 10px;
+    font-size: 28px;
+}
+
+.welcome-panel p {
+    margin: 10px 0;
+}
+
+.website-link {
+    font-size: 14px;
+    opacity: 0.8;
+}
+
+.signin-panel {
+    flex: 1;
+    background: white;
+    padding: 40px;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    text-align: center;
+}
+
+.signin-panel h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+.input-group {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.continue-btn {
+    width: 100%;
+    padding: 10px;
+    background: linear-gradient(to right, #ff0084, #33001b);
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.continue-btn:hover {
+    opacity: 0.9;
+}
+
+.social-btn {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.twitter-btn {
+    background: #1da1f2;
+}
+
+.facebook-btn {
+    background: #3b5998;
+}
+
+.social-btn:hover {
+    opacity: 0.9;
+}
+
+.google-png img{
+    position: relative;
+    right: 2vh;
+    width: 20px;
+    height: 20px;
+}
+.sign_up{
+    text-decoration: none;
+    color: white;
+}
+
+.sign_up:hover{
+    color: white;
+}
+
+.home-body{
+   background:linear-gradient(12deg , white 50% ,orange 50%);
+   border-radius:10% ;
+   -webkit-border-radius:10% ;
+   -moz-border-radius:10% ;
+   -ms-border-radius:10% ;
+   -o-border-radius:10% ;
+}
+.home-p{
+    text-align: center;
+    text-transform: uppercase;
+    color: rgb(16, 16, 16);
+    font-weight: bold;
+    font-size: 60px;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+
